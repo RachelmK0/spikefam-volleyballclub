@@ -32,7 +32,7 @@ const ResponsiveMenu = ({open}) => {
                                 href="/yearly-tournaments"
                                 className="block px-3 py-2 hover:bg-gray-400 hover:text-white "
                             >
-                                Yearly Tournaments
+                                Yearly Tournamentss
                             </a>
                         </li>
                         <li className="border-b last:border-b-0">
