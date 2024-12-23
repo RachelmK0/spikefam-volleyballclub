@@ -1,8 +1,9 @@
 import React from 'react';
-import logo_spike from '../../assets/logo_spike.png';
+import slogo from '../../assets/logo_spike.png';
 import { MdMenu } from 'react-icons/md';
 import { IoIosArrowDown } from 'react-icons/io';
 import ResponsiveMenu from './ResponsiveMenu';
+
 const Navbar = () => {
     const [open, setOpen] = React.useState(false);
     return (
@@ -11,7 +12,7 @@ const Navbar = () => {
                 <div className="container flex justify-between items-center py-2">
                     {/* Logo section */}
                     <div className="items-center">
-                        <img src={logo_spike} alt="Logo" style={{ height: '120px', width: 'auto' }} />
+                        <img src={slogo} alt="Logo" style={{ height: '120px', width: 'auto' }} />
                     </div>
 
                     {/* Menu section */}
