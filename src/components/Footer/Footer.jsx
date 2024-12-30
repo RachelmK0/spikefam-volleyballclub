@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 px-4 md:px-14 lg:px-28 text-white">
+    <footer className="bg-black px-4 md:px-14 lg:px-28 text-white">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8">
             
             <div>
@@ -28,10 +28,10 @@ const Footer = () => {
                 <br />
                 Sunday 11:30am - 5pm
                 </p>
-                <p className="italic text-sm mt-6">*Closing time may vary based on scheduled events.</p>
+                <p className="italic text-sm mt-6 text-gray-300">*Closing time may vary based on scheduled events.</p>
             </div>
             <div>
-                <h2 className="text-lg font-bold mb-4 text-white"> CONTACT US</h2>
+                <h2 className="text-lg font-bold mb-4 text-white "> CONTACT US</h2>
                 <p className="text-gray-300">
                     201 Spikeball Drive
                     <br/>
@@ -50,9 +50,8 @@ const Footer = () => {
                 </p>
                 
             </div>
-                <h2 className="text-lg font-bold mb-3 text-white">FOLLOW US</h2>
 
-                <ul className="flex space-x-4">
+                <ul className="flex space-x-4 text-gray-300">
                     <li> <FaFacebookF className="text-blue-500"/><a href="" className="hover:underline ">Facebook</a></li>
                     <li><FaTwitter className="text-sky-500"/><a href="" className="hover:underline ">Twitter</a></li>
                     <li><FaInstagram className="text-orange-500"/><a href="" className="hover:underline ">Instagram</a></li>
@@ -62,7 +61,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className="border-t border-gray-600 p-4 text-gray-300 text-center mt-4">  © 2024 SpikeFam Volleyball Club. Building Community Through Volleyball.
+        <div className="border-t border-gray-600 p-4 text-gray-300 text-center mt-4">  © 2024 SpikeFam Volleyball Club. All rights reserved.
         </div>
         
     </footer>

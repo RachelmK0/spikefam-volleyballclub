@@ -1,5 +1,5 @@
 import React from 'react';
-import slogo from '../../assets/logo_spike.png';
+import slogo from '../../assets/slogo.png';
 import { MdMenu } from 'react-icons/md';
 import { IoIosArrowDown } from 'react-icons/io';
 import ResponsiveMenu from './ResponsiveMenu';
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Menu section */}
-                    <div className="hidden md:block">
+                    <div className="hidden md:block font-playfair text-lg">
                         <ul className="flex items-center gap-6 text-gray-600">
                             {/* Home Link */}
                             <li>
@@ -81,10 +81,11 @@ const Navbar = () => {
 
                     {/* Register Now Button */}
                     <div>
-                        <button className="hover:bg-yellow-500 text-yellow-500 font-semibold hover:text-white rounded-md border-2 border-yellow-500 px-6 py-2 duration-200">
-                            Register Now
+                        <button className="hover:bg-yellow-500 text-yellow-500 font-semibold hover:text-white rounded-md border-2 border-yellow-500 px-6 py-2 duration-200 font-playfair">
+                            REGISTER NOW
                         </button>
                     </div>
+                    
 
                     {/* Mobile Hamburger Menu */}
                     <div className="md:hidden" onClick={() => setOpen(!open)}>
